@@ -11,10 +11,6 @@ module.exports = [
     input: 'src/index.ts',
     output: [
       {
-        file: packageJson.module,
-        format: 'cjs'
-      },
-      {
         file: packageJson.main,
         format: 'esm'
       }
@@ -37,7 +33,7 @@ module.exports = [
     ]
   },
   {
-    input: 'dist/esm/types/index.d.ts',
+    input: 'dist/types/index.d.ts',
     output: [{ file: packageJson.types, format: 'esm' }],
     external: [/\.(css|scss)$/],
     plugins: [dts.default()]
