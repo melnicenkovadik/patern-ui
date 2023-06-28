@@ -1,7 +1,7 @@
 {
   "name": "patern-ui",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/melnicenkovadik"
+    "@melnicenkovadik:registry": "https://npm.pkg.github.com"
   },
   "version": "1.0.0",
   "description": "",
