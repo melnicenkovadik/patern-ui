@@ -1,5 +1,5 @@
 {
-  "name": "@patern-ui",
+  "name": "patern-ui",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/melnicenkovadik"
   },
