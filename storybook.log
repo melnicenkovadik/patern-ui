@@ -1,0 +1,67 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE could not resolve
+npm ERR! 
+npm ERR! While resolving: react-dom@17.0.2
+npm ERR! Found: react@18.2.0
+npm ERR! node_modules/react
+npm ERR!   peer react@">=16.8.0" from @emotion/use-insertion-effect-with-fallbacks@1.0.1
+npm ERR!   node_modules/@emotion/use-insertion-effect-with-fallbacks
+npm ERR!     @emotion/use-insertion-effect-with-fallbacks@"^1.0.0" from @storybook/theming@7.0.24
+npm ERR!     node_modules/@storybook/theming
+npm ERR!       @storybook/theming@"7.0.24" from @storybook/addon-actions@7.0.24
+npm ERR!       node_modules/@storybook/addon-actions
+npm ERR!         @storybook/addon-actions@"7.0.24" from @storybook/addon-essentials@7.0.24
+npm ERR!         node_modules/@storybook/addon-essentials
+npm ERR!         1 more (the root project)
+npm ERR!       10 more (@storybook/addon-backgrounds, ...)
+npm ERR!   peer react@">=16" from @mdx-js/react@2.3.0
+npm ERR!   node_modules/@mdx-js/react
+npm ERR!     @mdx-js/react@"^2.1.5" from @storybook/addon-docs@7.0.24
+npm ERR!     node_modules/@storybook/addon-docs
+npm ERR!       @storybook/addon-docs@"7.0.24" from @storybook/addon-essentials@7.0.24
+npm ERR!       node_modules/@storybook/addon-essentials
+npm ERR!         dev @storybook/addon-essentials@"^7.0.24" from the root project
+npm ERR!   52 more (@storybook/addon-actions, ...)
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer react@"17.0.2" from react-dom@17.0.2
+npm ERR! node_modules/react-dom
+npm ERR!   peerOptional react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0" from @storybook/addon-actions@7.0.24
+npm ERR!   node_modules/@storybook/addon-actions
+npm ERR!     @storybook/addon-actions@"7.0.24" from @storybook/addon-essentials@7.0.24
+npm ERR!     node_modules/@storybook/addon-essentials
+npm ERR!       dev @storybook/addon-essentials@"^7.0.24" from the root project
+npm ERR!     1 more (the root project)
+npm ERR!   peerOptional react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0" from @storybook/addon-backgrounds@7.0.24
+npm ERR!   node_modules/@storybook/addon-backgrounds
+npm ERR!     @storybook/addon-backgrounds@"7.0.24" from @storybook/addon-essentials@7.0.24
+npm ERR!     node_modules/@storybook/addon-essentials
+npm ERR!       dev @storybook/addon-essentials@"^7.0.24" from the root project
+npm ERR!   47 more (@storybook/addon-controls, @storybook/addon-docs, ...)
+npm ERR! 
+npm ERR! Conflicting peer dependency: react@17.0.2
+npm ERR! node_modules/react
+npm ERR!   peer react@"17.0.2" from react-dom@17.0.2
+npm ERR!   node_modules/react-dom
+npm ERR!     peerOptional react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0" from @storybook/addon-actions@7.0.24
+npm ERR!     node_modules/@storybook/addon-actions
+npm ERR!       @storybook/addon-actions@"7.0.24" from @storybook/addon-essentials@7.0.24
+npm ERR!       node_modules/@storybook/addon-essentials
+npm ERR!         dev @storybook/addon-essentials@"^7.0.24" from the root project
+npm ERR!       1 more (the root project)
+npm ERR!     peerOptional react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0" from @storybook/addon-backgrounds@7.0.24
+npm ERR!     node_modules/@storybook/addon-backgrounds
+npm ERR!       @storybook/addon-backgrounds@"7.0.24" from @storybook/addon-essentials@7.0.24
+npm ERR!       node_modules/@storybook/addon-essentials
+npm ERR!         dev @storybook/addon-essentials@"^7.0.24" from the root project
+npm ERR!     47 more (@storybook/addon-controls, @storybook/addon-docs, ...)
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /Users/vadymmelnychenko/.npm/_logs/2023-06-28T18_53_41_302Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in: /Users/vadymmelnychenko/.npm/_logs/2023-06-28T18_53_41_302Z-debug-0.log

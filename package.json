@@ -1,7 +1,7 @@
 {
   "name": "@patern-ui",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/m-fil"
+    "registry": "https://npm.pkg.github.com/melnicenkovadik"
   },
   "version": "1.0.0",
   "description": "",
@@ -12,36 +12,38 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build": "rimraf dist && rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
     "deploy-storybook": "npm run build-storybook && gh-pages -d storybook-static"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/M-fil/patern-ui.git"
+    "url": "git+https://github.com/melnicenkovadik/patern-ui/issues.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/M-fil/ui-kit-test-lib/issues"
+    "url": "https://github.com/melnicenkovadik/patern-ui/issues"
   },
-  "homepage": "https://github.com/M-fil/ui-kit-test-lib#readme",
+  "homepage": "https://github.com/melnicenkovadik/patern-ui/issues#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
     "@rollup/plugin-terser": "^0.3.0",
     "@rollup/plugin-typescript": "^11.0.0",
     "@rollup/plugin-url": "^8.0.1",
-    "@storybook/addon-actions": "^6.5.15",
-    "@storybook/addon-essentials": "^6.5.13",
-    "@storybook/addon-interactions": "^6.5.13",
-    "@storybook/addon-links": "^6.5.13",
-    "@storybook/builder-webpack5": "^6.5.15",
-    "@storybook/manager-webpack5": "^6.5.15",
+    "@storybook/addon-actions": "^7.0.24",
+    "@storybook/addon-essentials": "^7.0.24",
+    "@storybook/addon-interactions": "^7.0.24",
+    "@storybook/addon-links": "^7.0.24",
     "@storybook/preset-scss": "^1.0.3",
-    "@storybook/react": "^6.5.15",
-    "@storybook/testing-library": "^0.0.13",
+    "@storybook/react": "^7.0.24",
+    "@storybook/react-webpack5": "^7.1.0-alpha.41",
+    "@storybook/testing-library": "^0.2.0",
     "@svgr/rollup": "^6.5.1",
     "@svgr/webpack": "^6.5.1",
     "@types/react": "^18.0.27",
@@ -56,6 +58,7 @@
     "eslint-plugin-react": "^7.32.1",
     "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.10.1",
     "rollup-plugin-dts": "^5.1.1",
     "rollup-plugin-postcss": "^4.0.2",
@@ -63,6 +66,7 @@
     "url-loader": "^4.1.1"
   },
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^18.2.0",
+    "storybook": "next"
   }
 }
